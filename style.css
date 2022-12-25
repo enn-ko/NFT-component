@@ -29,9 +29,8 @@ body{
   border-radius: 15px;
   box-shadow: 0.5rem 1rem 1rem 0.5rem rgb(0 0 0 / 10%)
   }
-  .sr-only{
-    position: absolute;
-    visibility: hidden;
+  .sr-only:not(:focus):not(:active) {
+   display: none;
   }
   .container a{
     text-decoration: none;
