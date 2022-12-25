@@ -80,7 +80,7 @@ body{
   .content   a:hover{
     color: var(--Cyan);
   }
-  .them1 a{
+  .them1{
     color: var(--Cyan) !important;
   }
   .cont-icon
