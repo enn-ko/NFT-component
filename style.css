@@ -30,7 +30,13 @@ body{
   box-shadow: 0.5rem 1rem 1rem 0.5rem rgb(0 0 0 / 10%)
   }
   .sr-only:not(:focus):not(:active) {
-   display: none !important;
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
   }
   .container a{
     text-decoration: none;
