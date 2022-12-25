@@ -16,17 +16,23 @@ body{
   font-family: 'Outfit';
   background-color: var(--main-bg);
   }
-  
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 .container{
-  width: 300px;
+  width: 250px;
   background: var(--card-bg);
-  margin: auto;
-  margin-top: 40px;
-  padding: 15px;
+  padding: 1rem;
   border-radius: 15px;
   box-shadow: 0.5rem 1rem 1rem 0.5rem rgb(0 0 0 / 10%)
   }
-
+  .sr-only{
+    display: none;
+    visibility: hidden;
+  }
   .container a{
     text-decoration: none;
     color: var(--White);
@@ -112,6 +118,6 @@ body{
   }
   @media screen and (max-width:375px) {
     .container{
-      width: 100%;
+      width: 80%;
     }
   }
